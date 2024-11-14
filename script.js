@@ -125,8 +125,9 @@ text.addEventListener('input', e => {
     updateTime();
   }
 });
-
+  
 // Settings btn click
+console("adding feature)
 settingsBtn.addEventListener('click', () => settings.classList.toggle('hide'));
 
 // Settings select
